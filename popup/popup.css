@@ -757,10 +757,12 @@ input.tm-field {
 .account h3[data-v-7f4dc840] {
   /* color: var(--bright); */
   font-weight: 500;
+  word-wrap: break-word;
   font-size: 14px;
 }
 .account-info[data-v-7f4dc840] {
   display: flex;
+  width: 50%;
   flex-direction: column;
 }
 .account-button[data-v-7f4dc840] {

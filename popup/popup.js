@@ -19990,7 +19990,7 @@
     var r = n(114);
     n.n(r).a
 }, function(e, t, n) {
-    e.exports = n.p + "/images/color-logo.png"
+    e.exports = n.p + "/images/color.svg"
 }, function(e, t, n) {
     "use strict";
     var r = n(115);
@@ -21042,7 +21042,7 @@
                 staticClass: "tx__content__caption"
             }, [n("p", [e._v("\n      Submitted " + e._s(e.transaction.value.proposal_type.toLowerCase()) + " proposal\n      "), n("b", [e._v(e._s(e._f("prettyLong")(e._f("atoms")(e.initialDeposit.amount))))]), e._v(" "), n("span", [e._v(e._s(e._f("viewDenom")(e.initialDeposit.denom)))])])]), e._v(" "), n("div", {
                 staticClass: "tx__content__information"
-            }, [e._v("\n    Title\n    "), n("i", [e._v(e._s(e.transaction.value.title))])])])
+            }, [e._v("\n    Title: \n    "), n("i", [e._v(e._s(e.transaction.value.title))])])])
         }, [], !1, null, null, null).exports,
         X = {
             name: "undelegate-message-details",
