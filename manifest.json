@@ -1,9 +1,9 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
-"name":"Lunie Browser Extension",
-"description":"A browser extension for Lunie.io","version":"1.0.9",
+"name":"Color Browser Extension",
+"description":"A browser extension for Color Platform","version":"0.1",
 "manifest_version":2,"icons":{"128":"icons/128x128.png"},
-"browser_action":{"default_title":"lunie-signer-x",
+"browser_action":{"default_title":"Color-Extension",
     "default_popup":"popup/popup.html"},
     "background":{"scripts":["background.js"]},
     "web_accessible_resources":["fonts/*.woff2"],
