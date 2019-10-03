@@ -20903,7 +20903,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -20933,7 +20933,7 @@
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
         }, [], !1, null, null, null).exports,
         B = {
             name: "deposit-message-details",
@@ -20979,7 +20979,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -20998,11 +20998,11 @@
                 n = e._self._c || t;
             return n("div", [e._m(0), e._v(" "), n("div", {
                 staticClass: "tx__content__information"
-            }, [e._v("\n    Monikor \n    "), n("router-link", {
+            }, [e._v("\n    Node Name: \n    "), n("router-link", {
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
         }, [function() {
             var e = this.$createElement,
                 t = this._self._c || e;
@@ -21050,7 +21050,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -21085,7 +21085,7 @@
                 attrs: {
                     to: "/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
         }, [], !1, null, null, null).exports),
         te = {
             name: "unjail-message-details",
@@ -21109,7 +21109,7 @@
                 n = e._self._c || t;
             return n("div", [e._m(0), e._v(" "), n("div", {
                 staticClass: "tx__content__information"
-            }, [e._v("\n    Moniker:\n    "), n("router-link", {
+            }, [e._v("\n    Node Name:\n    "), n("router-link", {
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.address
                 }
@@ -21127,7 +21127,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -21146,11 +21146,11 @@
                 n = e._self._c || t;
             return n("div", [e._m(0), e._v(" "), n("div", {
                 staticClass: "tx__content__information"
-            }, [e._v("\n    Monikor \n    "), n("router-link", {
+            }, [e._v("\n    Node Name: \n    "), n("router-link", {
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_address, e.validators)) + "\n    ")])], 1)])
         }, [function() {
             var e = this.$createElement,
                 t = this._self._c || e;
@@ -21194,7 +21194,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -21224,11 +21224,11 @@
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_src_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_src_address, e.validators)) + " ")]), e._v("To \n    "), n("router-link", {
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_src_address, e.validators)) + " ")]), e._v("To \n    "), n("router-link", {
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_dst_address
                 }
-            }, [e._v("\n      " + e._s(e._f("resolveValidatorName")(e.transaction.value.validator_dst_address, e.validators)) + "\n    ")])], 1)])
+            }, [e._v("\n      " + e._s(e._f("")(e.transaction.value.validator_dst_address, e.validators)) + "\n    ")])], 1)])
         }, [], !1, null, null, null).exports,
         de = {
             name: "set-withdraw-address-message-details",
@@ -21267,7 +21267,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -21290,7 +21290,7 @@
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v(e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)))])], 1)])
+            }, [e._v(e._s(e._f("")(e.transaction.value.validator_address, e.validators)))])], 1)])
         }, [function() {
             var e = this.$createElement,
                 t = this._self._c || e;
@@ -21304,7 +21304,7 @@
                 atoms: C.a,
                 viewDenom: C.f,
                 prettyLong: C.e,
-                resolveValidatorName: U.b
+                // resolveValidatorName: U.b
             },
             props: {
                 transaction: {
@@ -21327,7 +21327,7 @@
                 attrs: {
                     to: "staking/validators/" + e.transaction.value.validator_address
                 }
-            }, [e._v(e._s(e._f("resolveValidatorName")(e.transaction.value.validator_address, e.validators)))])], 1)])
+            }, [e._v(e._s(e._f("")(e.transaction.value.validator_address, e.validators)))])], 1)])
         }, [function() {
             var e = this.$createElement,
                 t = this._self._c || e;
