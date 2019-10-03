@@ -18663,7 +18663,7 @@
             }]), e
         }();
     window.browser = r(149);
-    var u = ["https://localhost:9080/#/", location.origin];
+    var u = ["https://wallet.testnet.color-platform.org/#/", location.origin];
     var f = new c;
     f.unqueueSignRequest(""), chrome.runtime.onMessage.addListener(function(e, t, r) {
             if (function(e) {

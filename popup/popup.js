@@ -21825,7 +21825,7 @@
             },
             methods: {
                 goToLunie: function() {
-                    window.open("https://localhost:9080/#/extension", "_blank", "noreferrer noopener")
+                    window.open("https://wallet.testnet.color-platform.org/#/extension", "_blank", "noreferrer noopener")
                 }
             }
         },
